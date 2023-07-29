@@ -1,0 +1,39 @@
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.mainContainer > *, input {
+    margin-bottom: 10px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container > *, input {
+    margin-bottom: 10px;
+
+}
+
+
+.containerSearch {
+    margin: 30px 50px auto 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.containerSearch > *, input {
+    margin-bottom: 10px;
+
+}
